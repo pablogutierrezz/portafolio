@@ -287,16 +287,18 @@ header {
 .contacto-text {
   font-size: 1.25em;
   margin: 0.313em 0;
+  color:inherit;
 }
 .contacto-text a {
   text-decoration: none;
   transition: 0.5s ease all;
+  color:inherit;
 }
 .contacto-text a:hover {
   font-weight: 700;
 }
 .contacto-text a:visited {
-  color: #707070;
+  color: inherit;
 }
 .contacto-title {
   font-size: 1.25em;
@@ -421,7 +423,7 @@ header {
   color: #fff;
   background-color: #000;
 }
-.links.dark {
+.dark {
   color: #fff;
   background-color: #222;
 }
